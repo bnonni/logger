@@ -1,8 +1,8 @@
 {
-    "name": "scclogger",
-    "version": "0.1.2",
+    "name": "@bnonni/logger",
+    "version": "0.2.0",
     "type": "module",
-    "description": "Simple colorized console logger",
+    "description": "TypeScript implementation of a simple, colorized console logger for reuse across projects",
     "main": "./dist/cjs/index.js",
     "module": "./dist/esm/index.js",
     "types": "./dist/types/index.d.ts",
@@ -19,7 +19,7 @@
         "build:esm": "rimraf dist/esm dist/types && pnpm tsc -p tsconfig.json",
         "build:cjs": "rimraf dist/cjs && tsc -p tsconfig.cjs.json && echo '{\"type\": \"commonjs\"}' > ./dist/cjs/package.json"
     },
-    "license": "Apache-2.0",
+    "license": "UNLICENSED",
     "contributors": [
         {
             "name": "Bryan Nonni",
@@ -58,5 +58,10 @@
         "globals": "^15.12.0",
         "rimraf": "^6.0.1",
         "typescript": "^5.7.2"
+    },
+    "pnpm": {
+        "onlyBuiltDependencies": [
+            "esbuild"
+        ]
     }
 }

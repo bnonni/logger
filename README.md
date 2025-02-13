@@ -1,3 +1,3 @@
-# SCCLogger
+# Logger
 
-Simple colorized console logger. My own personal implementation in TypeScript for reuse across other projects.
+A personal TypeScript implementation of a simple, colorized console logger for reuse across projects.

@@ -22,7 +22,7 @@ export const DEFAULT_LEVELS = ['error', 'security', 'warn'] as Level[];
  * @property {Level} level - The current log level.
  *
  */
-export class Logger implements Partial<Console> {
+class Logger implements Partial<Console> {
   public static levels: Level[] = ['test', 'development'].includes(NODE_ENV)
     ? ['debug', ...DEFAULT_LEVELS]
     :  DEFAULT_LEVELS;
@@ -66,3 +66,5 @@ export class Logger implements Partial<Console> {
     }
   }
 }
+
+export default Logger;
