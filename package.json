@@ -26,13 +26,13 @@
             "url": "https://github.com/bnonni"
         }
     ],
-    "homepage": "https://github.com/bnonni/sclogger",
+    "homepage": "https://github.com/bnonni/logger",
     "bugs": {
-        "url": "https://github.com/bnonni/sclogger/issues"
+        "url": "https://github.com/bnonni/logger/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com:bnonni/sclogger.git"
+        "url": "git+ssh://git@github.com:bnonni/logger.git"
     },
     "publishConfig": {
         "access": "public"
